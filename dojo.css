@@ -1,0 +1,75 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*/ Fixed width container class that will "auto-center" itself */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*/ Favorite button that I created*/
+#box1{
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    border: rgb(35, 151, 140) solid 2px;
+    border-radius: 50px 50px 50px 50px;
+    color: rgb(35, 151, 140);
+    padding-top: 4px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Verdana;
+}
+/*/Flexible Columns*/
+.row{
+    display: flex;
+}
+
+.col{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellowgreen;
+}
+
+.row2{
+    display: flex;
+}
+
+.coll{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    background-color: plum;
+
+}
+.col-2{
+    flex: 2;
+    padding: 10px;
+    margin: 10px;
+    background-color: plum;
+}
+
+.row3{
+    display: flex;
+}
+
+.coll1{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    background-color: powderblue;
+}
+
+/*/ Fav nav bar design*/
+
+#usernav{
+    width: 100%;
+    height: 25%;
+    background-color: teal;
+    border: teal;
+}
